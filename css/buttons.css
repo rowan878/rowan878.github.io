@@ -1,0 +1,10 @@
+.social-buttons {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 9vh;
+    text-decoration: underline;
+    padding: 10px 20px;
+    font-size: 25px;
+  }
+

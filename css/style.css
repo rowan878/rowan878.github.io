@@ -1,0 +1,19 @@
+body {
+  color: rgb(0, 0, 0);
+  margin: 1;
+  background-color: cyan;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+P {
+  font-size: 20px;
+}
+
+hr {
+  height: 2px;
+  background-color: black;
+  margin: 60px;
+}
