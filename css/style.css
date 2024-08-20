@@ -1,7 +1,7 @@
 body {
   color: rgb(0, 0, 0);
   margin: 1;
-  background-color: cyan;
+  background-color: rgb(143, 180, 180);
 }
 h1 {
     display: flex;
