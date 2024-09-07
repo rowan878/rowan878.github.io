@@ -3,6 +3,16 @@ body {
   margin: 2vw;
   background-color: #81bee2; 
 }
+
+.cloud-header {
+  width: 100;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   background-color: #81bee2; 
+}
+  
 h1 {
     display: flex;
     justify-content: center;
