@@ -1,16 +1,17 @@
 body { 
   color: #414141; 
-  margin: 2vw;
+  margin: 4vw;
   background-color: #81bee2; 
 }
 
 .cloud-header {
   width: 100;
-  height: auto;
+  height: 20vh;
   display: flex;
   align-items: center;
   justify-content: center;
    background-color: #81bee2; 
+   background-size: cover;
 }
   
 h1 {
