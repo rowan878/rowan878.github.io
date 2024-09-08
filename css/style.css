@@ -1,7 +1,7 @@
 body { 
   color: #414141; 
   margin: 4vw;
-  background-color: #81bee2; 
+  background-color: white; 
 }
 
 #headerimage { background: no-repeat center fixed;
@@ -14,7 +14,7 @@ background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
-   background-color: #81bee2; 
+   background-color: white; 
    background-size: cover;
 }
   
