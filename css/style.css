@@ -1,7 +1,9 @@
 body { 
   color: #414141; 
   margin: 4vw;
-  background-color: #ffffff; 
+  background-color: #ffffff url('images/SKY_BACKGROUND_MAIN.png') no-repeat center top;
+  background-size: cover;
+
 }
 
 #headerimage { background: no-repeat center fixed;
@@ -9,7 +11,7 @@ background-size: cover;
 }
 
 .cloud-header {
-  width: 100%;
+  width: 10%;
   height: auto;
   max-height: 20vh;
   display: flex;
