@@ -4,6 +4,10 @@ body {
   background-color: #81bee2; 
 }
 
+#headerimage { background: no-repeat center fixed;
+background-size: cover; 
+}
+
 .cloud-header {
   width: 100;
   height: 20vh;
