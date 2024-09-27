@@ -1,39 +1,61 @@
-body {
-  color: #414141;
+/* General reset to remove unwanted margins and padding */
+html, body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
   background-color: #ffffff;
-  background-image: url("/images/SKY_BACKGROUND_MAIN.png");
-  background-size: cover; /* Scales the image to cover the entire body */
-  background-attachment: fixed; /* Keeps the background in place when scrolling */
-  background-position: center top; /* Centers the image at the top */
 }
 
+/* Background Image */
+body {
+  color: #414141;
+  background-image: url("/images/SKY_BACKGROUND_MAIN.png");
+  background-size: cover;
+  background-attachment: fixed; /* Fixes the background to stay in place */
+  background-position: center top;
+}
+
+/* Header Image */
 #headerimage {
-  width: 100vw; /* Full viewport width */
-  height: auto; /* Auto height to maintain aspect ratio */
+  width: 100vw; 
+  height: auto; 
   display: block;
 }
 
+/* Cloud Header Section */
 .cloud-header {
   width: 100%;
   max-height: 20vh;
-  margin: 0; /* Removes margins */
+  margin: 0;
   padding: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-size: cover;
 }
 
-h1 {
-  display: flex;
-  justify-content: center;
-}
-
-P {
+/* Body Text Specific Margins */
+p, h1 {
+  margin: 20px; /* Adds margins to text elements */
   font-size: 20px;
+}
+
+/* Shop Container Customization */
+#my-store-108064525 {
+  max-width: 80%; /* Limit shop width */
+  margin: 0 auto; /* Center the shop on the page */
+}
+
+/* Shop Styling to Remove White Background */
+.ec-cart-widget,
+.ec-store {
+  background: transparent !important; /* Make shop background transparent */
+}
+
+/* Header and Other Non-Text Elements with No Margins */
+.cloud-and-title-header,
+.topnav {
+  margin: 0;
+  padding: 0;
 }
 
 hr {
