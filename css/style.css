@@ -11,8 +11,9 @@ body {
   color: #414141;
   background-image: url("/images/SKY_BACKGROUND_MAIN.png");
   background-size: cover;
-  background-attachment: fixed; /* Fixes the background to stay in place */
+  background-attachment: scroll;
   background-position: center top;
+  z-index: -1;
 }
 
 /* Header Image */
@@ -20,6 +21,10 @@ body {
   width: 100vw; 
   height: auto; 
   display: block;
+  position: relative;
+  z-index: 10; /* Ensures header is above the ads */
+  max-width: 89vw;
+  margin: 0 auto;
 }
 
 /* Cloud Header Section */
@@ -37,12 +42,6 @@ body {
 p, h1 {
   margin: 20px; /* Adds margins to text elements */
   font-size: 20px;
-}
-
-/* Shop Container Customization */
-#my-store-108064525 {
-  max-width: 80%; /* Limit shop width */
-  margin: 0 auto; /* Center the shop on the page */
 }
 
 /* Shop Styling to Remove White Background */

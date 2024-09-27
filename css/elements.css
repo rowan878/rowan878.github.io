@@ -94,3 +94,68 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+/* Styling for the left and right ad containers as image stripes */
+.ad-left,
+.ad-right {
+  position: fixed;
+  top: 0;
+  width: 5vw;
+  height: 100vh;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top center;
+  z-index: 1; /* Ensure they're behind the main content */
+}
+
+.ad-left {
+  left: 0;
+}
+
+.ad-right {
+  right: 0;
+}
+
+.shop-container {
+  position: relative;
+  z-index: 10; /* Ensures the content is above the ads */
+  margin: 0 auto;
+  max-width: 75vw;
+  padding: 2vw;
+}
+
+@media (max-width: 1200px) {
+  .shop-container {
+    margin-left: 5vw; /* Adjust space for the side ads */
+    margin-right: 5vw;
+  }
+}
+
+.ad-content {
+  display: flex;
+  flex-direction: column;
+  animation: scroll-ads 10s linear infinite;
+}
+
+.ad-content img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.ad-content h2 {
+  writing-mode: vertical-rl;
+  font-size: 3vw;
+  margin: 0;
+  padding: 1vw;
+}
+
+/* Trippy MSCHF esc spam stuff */
+@keyframes scroll-ads {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
