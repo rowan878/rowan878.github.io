@@ -62,3 +62,18 @@ hr {
   background-color: black;
   margin: 60px;
 }
+
+.cursor {
+  position: fixed;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #03fc52;
+  pointer-events: none;
+  animation: trail 1s ease-out infinite;
+  z-index: 100;
+}
+@keyframes trail {
+  from { transform: scale(1); }
+  to { transform: scale(0.2); }
+}
