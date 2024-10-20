@@ -1,8 +1,7 @@
-/* body {
-    position: relative;
-
-} */
-/* .Doodles {
+body {
+  position: relative;
+}
+.Doodles {
   position: absolute;
   z-index: -5;
 }
@@ -14,50 +13,49 @@
 }
 
 #Cardboard-Box {
-  top: 45vh;
-  left: 10vw;
-  width: 7vw;
+  top: 55vh;
+  left: 65vw;
+  width: 9vw;
 }
 
 #Crayon {
-  top: 15vh;
-  left: 75vw;
-  width: 9vw;
-  transform: rotate(45deg);
+  top: 140vh;
+  left: 40vw;
+  width: 8vw;
 }
 
 #Mannequin {
-  top: 113vh;
-  left: 15vw;
-  width: 5vw;
+  top: 37vh;
+  left: 5vw;
+  width: 7vw;
 }
 
 #Orange-Tree {
-  top: 148vh;
+  bottom: -5;
   left: 70vw;
   width: 8vw;
 }
 
 #Pink-Squiggle {
   top: 125vh;
-  left: 55vw;
+  right: 2vw;
   width: 7vw;
 }
 
 #Red-Squiggle {
   top: 150vh;
-  left: 2vw;
+  left: -4vw;
   width: 8vw;
 }
 
 #Spider {
-  top: 140vh;
-  left: 40vw;
-  width: 8vw;
+  top: 0vh;
+  left: 50vw;
+  width: 7vw;
 }
 
 #Spikeball {
-  top: 55vh;
-  left: 60vw;
-  width: 7vw;
-} */
+  top: 15vh;
+  left: 75vw;
+  width: 9vw;
+}
