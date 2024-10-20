@@ -2,10 +2,11 @@
 html, body {
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
+  /* overflow-x: initial !important;
+  overflow-y: scroll; */
   background-color: #ffffff;
+  
 }
-
 /* Background Image */
 body {
   color: #414141;
@@ -40,7 +41,7 @@ body {
 
 /* Body Text Specific Margins */
 p, h1 {
-  margin: 20px; /* Adds margins to text elements */
+  margin: 2vw; /* Adds margins to text elements */
   font-size: 20px;
 }
 

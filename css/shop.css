@@ -4,7 +4,10 @@
     max-width: 80%; /* Limit shop width */
     margin: 0 auto; /* Center the shop on the page */
     z-index: 2;
+    font-family: "Times New Roman", Times, serif;
+    
 }
+
 
 /* .crayon-border {
     max-width: 80%;
