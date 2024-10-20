@@ -135,7 +135,7 @@ li.dropdown {
 .ad-content {
   display: flex;
   flex-direction: column;
-  animation: scroll-ads 100s linear infinite;
+  animation: scroll-ads 150s linear infinite;
   z-index: 12;
 }
 
