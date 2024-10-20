@@ -23,8 +23,8 @@ body {
   height: auto; 
   display: block;
   position: relative;
-  z-index: 10; /* Ensures header is above the ads */
-  max-width: 89vw;
+  z-index: -1; /* Ensures header is above the ads */
+  /* max-width: 89vw; */
   margin: 0 auto;
 }
 
@@ -43,6 +43,11 @@ body {
 p, h1 {
   margin: 2vw; /* Adds margins to text elements */
   font-size: 20px;
+}
+
+.welcome {
+  text-align: center;
+  font-size: 4vh;
 }
 
 /* Shop Styling to Remove White Background */
