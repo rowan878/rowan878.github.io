@@ -3,18 +3,18 @@ body {
 }
 .Doodles {
   position: absolute;
-  z-index: -5;
+  z-index: 13;
 }
 
 #Blue-Squiggle {
-  top: 1vh;
-  left: 1vw;
+  top: 20vh;
+  left: -4vw;
   width: 8vw;
 }
 
 #Cardboard-Box {
   top: 55vh;
-  left: 65vw;
+  left: 70vw;
   width: 9vw;
 }
 
@@ -25,8 +25,8 @@ body {
 }
 
 #Mannequin {
-  top: 37vh;
-  left: 5vw;
+  top: 50vh;
+  left: 3vw;
   width: 7vw;
 }
 
@@ -50,7 +50,7 @@ body {
 
 #Spider {
   top: 0vh;
-  left: 50vw;
+  left: 15vw;
   width: 7vw;
 }
 
@@ -58,4 +58,24 @@ body {
   top: 15vh;
   left: 75vw;
   width: 9vw;
+}
+
+@keyframes twirly {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Doodles {
+  position: absolute;
+  z-index: -5;
+  transition: transform 0.5s ease-in-out;
+}
+
+.Doodles:hover {
+  animation: twirl 0.5s linear;
+  transform: rotate(360deg);
 }
