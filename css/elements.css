@@ -95,7 +95,7 @@ li.dropdown {
   display: block;
 }
 
-/* Styling for the left and right ad containers as image stripes */
+/* Styling for the left AND right ad containers as image stripes */
 .ad-left,
 .ad-right {
   position: fixed;
@@ -135,7 +135,7 @@ li.dropdown {
 .ad-content {
   display: flex;
   flex-direction: column;
-  animation: scroll-ads 15s linear infinite;
+  animation: scroll-ads 100s linear infinite;
   z-index: 12;
 }
 
@@ -154,7 +154,7 @@ li.dropdown {
 /* Trippy MSCHF esc spam stuff */
 @keyframes scroll-ads {
   0% {
-    transform: translateY(100%);
+    transform: translateY(0%);
   }
   100% {
     transform: translateY(-100%);

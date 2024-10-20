@@ -23,7 +23,7 @@ body {
   height: auto; 
   display: block;
   position: relative;
-  z-index: -1; /* Ensures header is above the ads */
+  z-index: 0; /* Ensures header is above the ads */
   /* max-width: 89vw; */
   margin: 0 auto;
 }
@@ -47,7 +47,7 @@ p, h1 {
 
 .welcome {
   text-align: center;
-  font-size: 4vh;
+  font-size: 3vh;
 }
 
 /* Shop Styling to Remove White Background */
@@ -76,6 +76,7 @@ hr {
   border-radius: 50%;
   background: #03fc52;
   pointer-events: none;
+  cursor:
   animation: trail 1s ease-out infinite;
   z-index: 100;
 }
