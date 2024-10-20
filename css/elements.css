@@ -126,11 +126,12 @@ li.dropdown {
 }
 
 @media (max-width: 1200px) {
-  .shop-container {
-    margin-left: 5vw; /* Adjust space for the side ads */
+  /* .shop-container {
+    margin-left: 5vw;
     margin-right: 5vw;
-  }
+  } */
 }
+/* This was offsetting the shop*/
 
 .ad-content {
   display: flex;
@@ -160,3 +161,5 @@ li.dropdown {
     transform: translateY(-100%);
   }
 }
+
+

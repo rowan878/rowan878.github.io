@@ -2,10 +2,7 @@
 html, body {
   margin: 0;
   padding: 0;
-  /* overflow-x: initial !important;
-  overflow-y: scroll; */
   background-color: #ffffff;
-  
 }
 /* Background Image */
 body {
@@ -77,10 +74,10 @@ hr {
   border-radius: 50%;
   background: #03fc52;
   pointer-events: none;
-  cursor:
   animation: trail 1s ease-out infinite;
-  z-index: 100;
+  z-index: 12;
 }
+
 @keyframes trail {
   from { transform: scale(1); }
   to { transform: scale(0.2); }
