@@ -25,8 +25,8 @@ body {
 }
 
 #Mannequin {
-  top: 50vh;
-  left: 3vw;
+  bottom: 20vh;
+  left: -5vw;
   width: 7vw;
 }
 
@@ -43,7 +43,7 @@ body {
 }
 
 #Red-Squiggle {
-  top: 150vh;
+  bottom: 70vh;
   left: -4vw;
   width: 8vw;
 }
