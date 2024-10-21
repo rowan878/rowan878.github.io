@@ -174,7 +174,7 @@ li.dropdown {
   text-align: center;
   cursor: pointer;
   transform: rotate(20deg);
-  animation: expandShrink 2s infinite ease-in-out, disappear 45s forwards;
+  animation: expandShrink 2s infinite ease-in-out, disappear 37s forwards;
   z-index: 20;
 }
 
@@ -192,7 +192,7 @@ li.dropdown {
   0% {
     opacity: 1;
   }
-  75% {
+  85% {
     opacity: 0.8; 
   }
   100% {
