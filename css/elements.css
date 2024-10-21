@@ -170,11 +170,11 @@ li.dropdown {
   font-size: 0.8rem;
   font-weight: bold;
   border-radius: 50%;
-  padding: 1.4vw;
+  padding: 1.1vw;
   text-align: center;
   cursor: pointer;
   transform: rotate(20deg);
-  animation: expandShrink 2s infinite ease-in-out, disappear 250s forwards;
+  animation: expandShrink 2s infinite ease-in-out, disappear 35s forwards;
   z-index: 20;
 }
 
@@ -184,7 +184,7 @@ li.dropdown {
     transform: scale(1) rotate(20deg);
   }
   50% {
-    transform: scale(1.1) rotate(24deg);
+    transform: scale(1.1) rotate(22deg);
   }
 }
 
