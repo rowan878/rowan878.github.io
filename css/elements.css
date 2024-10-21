@@ -139,7 +139,7 @@ li.dropdown {
   z-index: 12;
 }
 
-.ad-content img {
+.ad-content object {
   width: 100%;
   margin-bottom: 1vw;
 }
