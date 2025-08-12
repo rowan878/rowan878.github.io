@@ -40,7 +40,7 @@ body {
   font-family: "WDXL Lubrifont TC", sans-serif;
   font-weight: bold;
   text-shadow: 0 0 6px #31697b, 0 0 10px #31697b;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.10em;
   color: #202121;
   position: absolute;
   top: 50%;
@@ -59,7 +59,7 @@ body {
   }
 
   .clock-display {
-    font-size: calc(75vh * 0.05);
+    font-size: calc(75vh * 0.04);
     padding: 0.2vw;
     transform: translate(-50%, calc(-50% + 6vh));
   }
@@ -75,8 +75,8 @@ body {
   }
 
   .clock-display {
-    font-size: calc(50vh * 0.05);
-    padding: 0.5vw;
+    font-size: calc(50vh * 0.04);
+    padding: 0.3vw;
     transform: translate(-50%, calc(-50% + 4vh));
   }
 }
@@ -91,8 +91,8 @@ body {
   }
 
   .clock-display {
-    font-size: calc(60vh * 0.05);
-    padding: 0.6vw;
+    font-size: calc(60vh * 0.04);
+    padding: 0.4vw;
     transform: translate(-50%, calc(-50% + 4.8vh));
   }
 }

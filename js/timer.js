@@ -15,31 +15,33 @@ function selectRandomImage() {
     document.getElementById('Watch').src = selectedImage;
 }
 
-// Countdown to 4pm mst August 8, 2025
+// Countdown to 4pm mst August 28, 2025
 function updateCountdown() {
     const now = new Date();
-    const targetDate = new Date('August 8, 2025 16:00:00');
+    const targetDate = new Date('August 28, 2025 16:00:00');
     const timeDifference = targetDate - now;
     
     // Check if the target date has passed
     if (timeDifference <= 0) {
-        document.getElementById('digitalClock').textContent = "00:00:00";
+        document.getElementById('digitalClock').textContent = "00:00:00:00";
         return;
     }
     
-    // Calculate hours, minutes, seconds
+    // Calculate days, hours, minutes, seconds
+    const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
     const hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
     const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
     
     // Format the display
+    const daysFormatted = String(days).padStart(2, '0');
     const hoursFormatted = String(hours).padStart(2, '0');
     const minutesFormatted = String(minutes).padStart(2, '0');
     const secondsFormatted = String(seconds).padStart(2, '0');
     
     // Display the countdown with days
     document.getElementById('digitalClock').textContent = 
-        `${hoursFormatted}:${minutesFormatted}:${secondsFormatted}`;
+        `${daysFormatted}:${hoursFormatted}:${minutesFormatted}:${secondsFormatted}`;
 }
 
 function positionClock() {
