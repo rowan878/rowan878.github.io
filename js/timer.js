@@ -15,10 +15,10 @@ function selectRandomImage() {
     document.getElementById('Watch').src = selectedImage;
 }
 
-// Countdown to 4pm mst August 28, 2025
+// Countdown to 4pm mst September 8, 2025
 function updateCountdown() {
     const now = new Date();
-    const targetDate = new Date('August 28, 2025 16:00:00');
+    const targetDate = new Date('September 8, 2025 16:00:00');
     const timeDifference = targetDate - now;
     
     // Check if the target date has passed
