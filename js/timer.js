@@ -2,7 +2,6 @@
 const watchImages = [
     '/img/YellowWatch.png',
     '/img/BlueWatch.png',
-    '/img/RedWatch.png',
     '/img/LightPinkWatch.png',
     '/img/BrightPinkWatch.png'
     // Add more image paths as needed
