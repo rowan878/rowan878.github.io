@@ -4,6 +4,26 @@
   box-sizing: border-box;
 }
 
+/* Color Theme Swatches in Hex */
+:root {
+  --chdreams-blue: #00CBFF;
+  --chdreams-blue-lightest: #ECFBFF;
+  --chdreams-blue-light: #ADEFFF;
+  --chdreams-blue-dark: #002C38;
+  --chdreams-blue-darkest: #00151B;
+  --chdreams-pink: #FF0091;
+  --chdreams-pink-lightest: #FFE3EE;
+  --chdreams-pink-light: #FFD3EB;
+  --chdreams-pink-medium: #FFADD7;
+  --chdreams-pink-dark: #560035;
+  --chdreams-pink-darkest: #16000D;
+  --chdreams-yellow: #FFF100;
+  --chdreams-yellow-lightest: #FFFEE5;
+  --chdreams-yellow-light: #FFFA9A;
+  --chdreams-yellow-dark: #292700;
+  --chdreams-black: #000405;
+}
+
 @font-face {
   font-family: "Overtime LCD Pro Bold";
   src: url("../fonts/OvertimeLCDPro-Bold.otf");
@@ -52,6 +72,7 @@
   font-display: block;
   font-style: normal;
 }
+
 
 body {
   background-color: #f0f0f0;
