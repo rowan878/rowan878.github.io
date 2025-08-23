@@ -4,11 +4,61 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Overtime LCD Pro Bold";
+  src: url("../fonts/OvertimeLCDPro-Bold.otf");
+  font-display: block;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Overtime LCD Pro Light";
+  src: url("../fonts/OvertimeLCDPro-Light.otf");
+  font-display: block;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Brandon Grotesque Black";
+  src: url("../fonts/BrandonGrotesque-Black.otf");
+  font-display: block;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Brandon Grotesque Bold";
+  src: url("../fonts/BrandonGrotesque-Bold.otf");
+  font-display: block;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Brandon Grotesque Regular Italic";
+  src: url("../fonts/BrandonGrotesque-RegularItalic.otf");
+  font-display: block;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Comic Sans MS Bold ";
+  src: url("../fonts/ComicSansMS-Bold.ttf");
+  font-display: block;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Comic Sans MS";
+  src: url("../fonts/ComicSansMS.ttf");
+  font-display: block;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter Regular";
+  src: url("../fonts/Inter-Regular.otf");
+  font-display: block;
+  font-style: normal;
+}
+
 body {
   background-color: #f0f0f0;
   margin: 0;
   padding: 0;
   overflow: auto;
+  font-family: "Inter Regular", sans-serif;
 }
 
 .container {
@@ -37,10 +87,10 @@ body {
 }
 
 .clock-display {
-  font-family: "WDXL Lubrifont TC", sans-serif;
+  font-family: "Overtime LCD Pro Bold", sans-serif;
   font-weight: bold;
-  text-shadow: 0 0 6px #31697b, 0 0 10px #31697b;
-  letter-spacing: 0.10em;
+  /* text-shadow: 0 0 6px #31697b, 0 0 10px #31697b; */
+  letter-spacing: 0.05em;
   color: #202121;
   position: absolute;
   top: 50%;
