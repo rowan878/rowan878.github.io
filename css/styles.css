@@ -100,6 +100,21 @@ body {
   text-align: center;
 }
 
+.instagram-imgs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.instagram-imgs img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin: 10px;
+}
+
 /* Mobile devices (phones) - Watch takes up most of screen */
 @media screen and (max-width: 768px) {
   .container {
